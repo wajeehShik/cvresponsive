@@ -1,0 +1,86 @@
+@media only screen and (max-width:1224px) {
+    
+header{
+    padding: 0;
+    flex-direction: column;
+  
+}
+header img{
+    margin: auto;
+    padding-top: 15px;
+}
+header nav{
+    width: 100%;
+}
+header>nav>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    width: 100%;
+    border: 2px solid;
+    padding: 0;
+    text-align: center;
+
+}
+header>nav>ul li{
+    width: 100%;
+    border-bottom: 2px solid gray;
+    padding: 10px 0px;
+/* border:2px solid red; */
+}
+
+
+#about-us,#profile article{
+    flex-direction: column;
+}
+#about-us{
+margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#profile article {
+      row-gap: 23px;
+      margin-left: 10px;
+} 
+#contactus{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#contactus>span{
+    font-size:.6em
+}
+
+
+
+
+#contactus article div>span{
+    font-size:.7em
+}
+
+#contactus article div .data{
+    font-size:.5em
+}
+footer p{
+    font-size: .5em;
+}
+#about-us div p{
+    padding-right: 10px;
+}
+
+}
+
+
+@media only screen and (max-width:480px) {
+
+    #contactus article
+
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-top: 50px;row-gap: 20px;
+}
+}
